@@ -15,14 +15,15 @@ function go() {
       <a
         rel="noreferrer"
         href="https://github.com/Simon-He95/vitesse-lite"
+
         target="_blank"
-        class="bg-amber-100"
+        class="w-[20px] text-center h-4 bg-amber-100"
       >
         Vitesse Lite
       </a>
     </p>
     <p>
-      <em class="text-sm op75">Opinionated Vite Starter Template</em>
+      <em class="text-sm opacity-75">Opinionated Vite Starter Template</em>
     </p>
 
     <div class="py-4" />
@@ -30,17 +31,22 @@ function go() {
     <input
       id="input"
       v-model="name"
-      class="border-dark:gay-700 active:outline-none outline-none border-gray-200 border-solid rounded bg-transparent text-center w-[250px] px-4 py-2"
+      class="border-dark:gay-700 active:outline-none outline-none border-gray-200 border-[1px] border-solid rounded bg-transparent text-center w-[250px] px-4 py-2"
       placeholder="What's your name?"
       type="text"
+      pointer
       autocomplete="false"
       @keydown.enter="go"
     >
 
     <div>
-      <button class="m-3 text-sm btn" :disabled="!name" @click="go">
+      <button class="bg-red-100 m-3 text-sm btn" :disabled="!name" @click="go">
         Go
       </button>
     </div>
   </div>
 </template>
+
+<style scoped>
+
+</style>
