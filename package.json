@@ -2,7 +2,7 @@
   "name": "vitesse-vue-tailwind4",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.8.1",
+  "packageManager": "pnpm@10.9.0",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
