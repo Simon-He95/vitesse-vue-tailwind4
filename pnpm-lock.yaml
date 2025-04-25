@@ -73,8 +73,8 @@ importers:
         specifier: ^6.3.2
         version: 6.3.3(@types/node@18.19.86)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1)
       vite-plugin-pages:
-        specifier: ^0.32.5
-        version: 0.32.5(@vue/compiler-sfc@3.5.13)(vite@6.3.3(@types/node@18.19.86)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3)))
+        specifier: ^0.33.0
+        version: 0.33.0(@vue/compiler-sfc@3.5.13)(vite@6.3.3(@types/node@18.19.86)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3)))
       vitest:
         specifier: ^3.1.1
         version: 3.1.2(@types/debug@4.1.12)(@types/node@18.19.86)(jiti@2.4.2)(jsdom@19.0.0)(lightningcss@1.29.2)(yaml@2.7.1)
@@ -2578,8 +2578,8 @@ packages:
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
-  vite-plugin-pages@0.32.5:
-    resolution: {integrity: sha512-GY2JAt+4vZ4BqTtw+4CSUxPgYiqamrMRIzYk2AtJvQHeBoMlctsQW+tgCpKriUKINiKfi6NegbP07r1XrdxTWA==}
+  vite-plugin-pages@0.33.0:
+    resolution: {integrity: sha512-D6AydqTbGM2yDEPgdea7MS2wL4Eensagra+gCdO7mu5YJPcrNas5blMShxqlFOmK0JDvxh3iTVob5hJhfbHMXQ==}
     peerDependencies:
       '@solidjs/router': '*'
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
@@ -5512,16 +5512,17 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-pages@0.32.5(@vue/compiler-sfc@3.5.13)(vite@6.3.3(@types/node@18.19.86)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3))):
+  vite-plugin-pages@0.33.0(@vue/compiler-sfc@3.5.13)(vite@6.3.3(@types/node@18.19.86)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))(vue-router@4.5.0(vue@3.5.13(typescript@5.8.3))):
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.4.0
       dequal: 2.0.3
       extract-comments: 1.1.0
-      fast-glob: 3.3.3
       json5: 2.2.3
       local-pkg: 1.1.1
+      micromatch: 4.0.8
       picocolors: 1.1.1
+      tinyglobby: 0.2.13
       vite: 6.3.3(@types/node@18.19.86)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1)
       yaml: 2.7.1
     optionalDependencies:
