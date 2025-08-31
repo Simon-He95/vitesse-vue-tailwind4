@@ -13,7 +13,7 @@ importers:
         version: 1.9.0(tailwindcss@4.1.11)
       '@iconify-json/carbon':
         specifier: ^1.2.10
-        version: 1.2.10
+        version: 1.2.13
       '@iconify/tailwind':
         specifier: ^1.2.0
         version: 1.2.0
@@ -451,8 +451,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify-json/carbon@1.2.10':
-    resolution: {integrity: sha512-Z+psKjwGZ9wZu+mVOStmIqHux1OWc8AtDiJ4eHmOkbcW5SMoGVtsQ6LWGJcYguT+9q9YgGihUTvHEnQSPWKGiQ==}
+  '@iconify-json/carbon@1.2.13':
+    resolution: {integrity: sha512-vXrFFKkfYaZSwf4WfnRQJQMnpEzxlPlupwZZlS1WvOAuNnWahsUudHycaMpoBzDqBfniH4KQ2b5qnw0VMKoJug==}
 
   '@iconify/tailwind@1.2.0':
     resolution: {integrity: sha512-KgpIHWOTcRYw1XcoUqyNSrmYyfLLqZYu3AmP8zdfLk0F5TqRO8YerhlvlQmGfn7rJXgPeZN569xPAJnJ53zZxA==}
@@ -3129,7 +3129,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify-json/carbon@1.2.10':
+  '@iconify-json/carbon@1.2.13':
     dependencies:
       '@iconify/types': 2.0.0
 
