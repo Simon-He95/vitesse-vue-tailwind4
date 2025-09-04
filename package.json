@@ -24,7 +24,7 @@
     "@antfu/eslint-config": "^4.16.2",
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "^4.1.11",
-    "@types/node": "^18.19.115",
+    "@types/node": "^22.0.0",
     "@vitejs/plugin-vue": "^6.0.0",
     "@vue/test-utils": "^2.4.6",
     "autoprefixer": "^10.4.21",
